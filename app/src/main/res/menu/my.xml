@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item android:id="@+id/ajustes"
+        android:title="Ajustes"
+        android:icon="@android:drawable/ic_menu_more"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        >
+        <menu> <!-- submenú -->
+            <item android:id="@+id/confS"
+                android:title="Configuración de Starks"
+                android:orderInCategory="1"/>
+            <item android:id="@+id/confL"
+                android:title="Configuración de Lannisters"
+                android:orderInCategory="2"/>
+            <item android:id="@+id/confB"
+                android:title="Configuración de Baratheons"
+                android:orderInCategory="3"/>
+        </menu>
+    </item>
+    <item android:id="@+id/Arbol"
+        android:title="Árbol Genialógico"
+        android:orderInCategory="1">
+        <menu> <!-- submenú -->
+            <item android:id="@+id/nuevaEntrada"
+                android:title="Nueva Entrada"
+                android:orderInCategory="1" />
+            <item android:id="@+id/verEstructura"
+                android:title="Ver Estructura"
+                android:orderInCategory="2" />
+        </menu>
+    </item>
+    <item android:id="@+id/Alarmas"
+        android:title="Alarmas"
+        android:orderInCategory="2">
+    </item>
+    <item android:id="@+id/verMiembros"
+        android:title="Ver Miembros"
+        android:orderInCategory="3">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/asesinados"
+                android:title="Asesinados"
+                android:orderInCategory="1" />
+            <item android:id="@+id/vivos"
+                android:title="Vivos"
+                android:orderInCategory="2" />
+            <item android:id="@+id/heridos"
+                android:title="Heridos"
+                android:orderInCategory="3" />
+            <item android:id="@+id/aparecer"
+                android:title="Por aparecer"
+                android:orderInCategory="4" />
+            </group>
+        </menu>
+    </item>
+</menu>

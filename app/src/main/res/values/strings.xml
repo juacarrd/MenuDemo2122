@@ -1,0 +1,21 @@
+<resources>
+
+        <string name="app_name">MenusDemo</string>
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Settings</string>
+        <string-array name="lannisters">
+            <item>Jaime Lannister</item>
+            <item>Cersey Lannister</item>
+            <item>Tyrion Lannister</item>
+            <item>Tywin Lannister</item>
+            <item>Joffrey Baratheon</item>
+        </string-array>
+
+        <string-array name="starks">
+            <item>Robb Stark</item>
+            <item>Ned Stark</item>
+            <item>Brandon Stark</item>
+            <item>Sansa Stark</item>
+            <item>Aria Stark</item>
+        </string-array>
+    </resources>

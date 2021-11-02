@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@android:drawable/ic_delete"
+        android:title="Aniquilar"
+        android:id="@+id/aniquilar"
+        ></item>
+    <item android:icon="@android:drawable/presence_away"
+        android:title="Encerrar"
+        android:id="@+id/encerrar"
+        ></item>
+    <item android:icon="@android:drawable/btn_star"
+        android:title="Salvar"
+        android:id="@+id/salvar"
+        ></item>
+
+</menu>
